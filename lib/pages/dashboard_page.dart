@@ -21,6 +21,7 @@ dashboardBodyUpper(scaffoldKey, width, height) {
 
     ListView(
       padding: const EdgeInsets.only(top: 8.0),
+      physics: BouncingScrollPhysics(),
       children: <Widget>[
         //Hello text
         Container(
@@ -232,10 +233,7 @@ dashboardBodyUpper(scaffoldKey, width, height) {
           ),
         ),
 
-      
         //Recently learned card
-        
-      
       ],
     ),
 
