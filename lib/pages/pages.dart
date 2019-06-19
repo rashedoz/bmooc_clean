@@ -14,7 +14,7 @@ var pageList = [
     titleGradient: gradients[1]
     ),
   PageModel(
-    imageUrl: "images/onboard_3.png",
+    imageUrl: "images/onboard_3_v2.png",
     title: "FLexibility",
     body: "Watch in your own time",
     titleGradient: gradients[2]
